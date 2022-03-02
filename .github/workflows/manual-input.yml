@@ -17,5 +17,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - uses: actions/checkout@v2
       - name: Print the input tag to STDOUT
         run: echo  The target is ${{ github.event.inputs.target }} 
+      - run: ls
