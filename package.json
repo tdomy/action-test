@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:tdomy/action-test.git",
   "author": "tdomy <y.tokudomi@tdomy.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "purecss-sass": "^2.0.6"
+  }
 }
